@@ -5,7 +5,7 @@ import logo from '../assets/logo.png';
 
 export default function Login({navigation}) {
   function handleLogin() {
-    navigation.navigate('Main');
+    navigation.navigate('Localizacao');
   }
 
   function handleCadastro() {
@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     height: 46,
     width: 300,
     alignSelf: 'center',
-    backgroundColor: '#b3c0d0',
+    backgroundColor: '#5DBCD2',
     borderRadius: 20,
     marginTop: 20,
     justifyContent: 'center',

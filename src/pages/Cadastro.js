@@ -1,10 +1,11 @@
 import React from 'react';
 import { ScrollView, Platform, Text, StyleSheet, Image, TextInput, TouchableOpacity } from 'react-native';
 import logo from '../assets/logo.png';
+import Calendar from 'react-native-calendario';
 
 export default function Cadastro({ navigation }) {
     function handleConfirma() {
-        navigation.navigate('Login');
+        navigation.navigate('Main');
     }
 
     function handleSair() {
@@ -16,8 +17,6 @@ export default function Cadastro({ navigation }) {
             behavior='padding'
             enable={Platform.OS == 'ios'}
             style={styles.container}>
-
-
             <Image source={logo} />
             <TextInput
                 placeholder="Nome Completo "
@@ -76,7 +75,7 @@ const styles = StyleSheet.create({
         height: 46,
         width: 300,
         alignSelf: 'center',
-        backgroundColor: '#b3c0d0',
+        backgroundColor: '#5DBCD2',
         borderRadius: 20,
         marginTop: 20,
         justifyContent: 'center',

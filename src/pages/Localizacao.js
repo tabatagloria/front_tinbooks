@@ -15,9 +15,8 @@ export default function Login({navigation}) {
       style = {styles.container}>
       
 
-      <Image source = {logo} />
       <TouchableOpacity onPress={handleLogin} style = {styles.button}>
-        <Text style = {styles.buttonText}>Confirmar</Text>
+        <Text style = {styles.buttonText}>Ativar Localização</Text>
       </TouchableOpacity>
     </KeyboardAvoidingView>
   );
@@ -46,7 +45,7 @@ const styles = StyleSheet.create({
     height: 46,
     width: 300,
     alignSelf: 'center',
-    backgroundColor: '#b3c0d0',
+    backgroundColor: '#5DBCD2',
     borderRadius: 20,
     marginTop: 20,
     justifyContent: 'center',
